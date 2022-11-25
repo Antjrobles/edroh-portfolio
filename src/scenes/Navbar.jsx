@@ -35,8 +35,30 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
+            <Link 
+              page="Skills"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+            <Link 
+              page="Projects"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+            <Link 
+              page="Testimonios"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            /><Link 
+            page="Contact"
+            selectedPage={selectedPage}
+            setSelectedPage={setSelectedPage}
+          />
           </div>
-        ) : (<div></div>)}
+        ) : (<button>
+          <img alt="menu-icon" src="../assets/menu-icon.svg" />
+        </button>
+        )}
       </div>
     </nav>
   )
