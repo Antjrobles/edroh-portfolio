@@ -55,10 +55,14 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
             setSelectedPage={setSelectedPage}
           />
           </div>
-        ) : (<button>
+        ) : (<button className="rounded-full bg-red p-2" 
+           onClick={() => setIsMenuToggled(!isMenuToggle)}>
           <img alt="menu-icon" src="../assets/menu-icon.svg" />
         </button>
         )}
+
+        {/* MOBILE MENU POPUP */}
+         
       </div>
     </nav>
   )
