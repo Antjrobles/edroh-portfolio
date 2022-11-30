@@ -3,6 +3,7 @@ import Navbar from "./scenes/Navbar";
 import DotGroup from "./scenes/DotGroup"
 import Landing from "./scenes/Landing";
 import Projects from "./scenes/Projects";
+import Footer from "./scenes/Footer"
 import MySkills from "./scenes/MySkills";
 import Contact from "./scenes/Contact";
 import Testimonials from "./scenes/Testimonials";
@@ -56,6 +57,10 @@ function App() {
       <LineGradient />
       <div className="w-5/6 mx-auto md:h-full">
         <Contact />
+        </div>
+      <LineGradient />
+      <div className="w-5/6 mx-auto md:h-full">
+        <Footer />
       </div>
     </div>
   );
