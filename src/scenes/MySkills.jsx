@@ -27,7 +27,7 @@ const MySkills = () => {
                     <LineGradient width="w-1/3" />
                     <p className="mt-10 mb-7">
                         Contrary to popular belief, Lorem Ipsum is not simply random text
-                        Lorem ipsum dolor sit Lorem ipsum dolor sit.
+                        Lorem ipsum dolor sit Lorem ipsum dolor sit. asdse, rtfaas.
 
                     </p>
                 </motion.div>
