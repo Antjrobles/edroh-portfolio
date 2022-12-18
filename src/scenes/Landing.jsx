@@ -33,7 +33,7 @@ const Landing = ({ setSelectedPage }) => {
       </div>
 
       {/* MAIN TEXT */}
-      <div className="z-30 basis-2/5 mt-12 md:mt-32">
+        <div className="z-30 basis-2/5 mt-12 md:mt-32">
         {/* HEADINGS */}
         <motion.div
           initial="hidden"
@@ -55,15 +55,15 @@ const Landing = ({ setSelectedPage }) => {
             </span>
           </p>
 
-          <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Adipiscing arcu, in aliquam fringilla cursus. Elit arcu elementum
-            viverra malesuada sem ac faucibus dolor. Sagittis scelerisque.
+          <p className="mt-10 mb-7 text-m text-center md:text-center font-playfair font-semibold">
+            Hello stranger, I am Antonio, a freelance web designer and full stack developer living & working in Málaga. I  
+             &nbsp;<span className="text-yellow">enjoy</span> developing and <span className="text-red">working</span> with web applications, both on my own projects and for clients. Write a message, give me a call and we'll grab a coffee and talk about your &nbsp;<span className="text-blue">project</span>.
           </p>
         </motion.div>
 
         {/* CALL TO ACTIONS */}
         <motion.div
-          className="flex mt-5 justify-center md:justify-start"
+          className="flex mt-5 ml-12  md:justify-start"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}

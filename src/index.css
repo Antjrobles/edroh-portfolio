@@ -10,5 +10,5 @@ root,
 .app {
     height: 100%;
     background-color: #010026;
-    @apply text-white; /* Detault color of the text is going to be white */
+    @apply text-white; /* Default color of the text is going to be white */
 }
