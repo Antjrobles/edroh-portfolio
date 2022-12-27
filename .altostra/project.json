@@ -1,0 +1,21 @@
+{
+  "id": "edroh-portfolio-zj10ind",
+  "name": "edroh-portfolio",
+  "created": "2022-12-27T22:59:23.839Z",
+  "description": "",
+  "blueprints": [
+    {
+      "version": "2019-10-24",
+      "connections": {},
+      "resources": {},
+      "metadata": {
+        "designer": {
+          "resourcePositions": {}
+        }
+      },
+      "id": "edroh-portfolio-z600i7r",
+      "name": "edroh-portfolio"
+    }
+  ],
+  "type": "altostra"
+}
